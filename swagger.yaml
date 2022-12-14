@@ -369,7 +369,18 @@ definitions:
       body:
         type: object
         properties:
-          id:
-            type: string
           transactions:
             type: object
+            properties:
+              id:
+                type: string
+              receiver:
+                type: string
+              amount:
+                type: integer
+              comment:
+                type: string
+              createdAt:
+                type: string
+              updatedAt:
+                type: string
