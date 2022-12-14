@@ -207,7 +207,7 @@ paths:
           description: Unauthorized access
         "500":
           description: Internal Server Error
-    put:
+    patch:
       security:
         - Bearer: []
       tags:
